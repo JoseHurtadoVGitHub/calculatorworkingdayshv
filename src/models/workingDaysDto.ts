@@ -25,7 +25,7 @@ export const QueryWorkingDaysSchema = z
   })
   .refine((data) => data.days !== undefined || data.hours !== undefined, {
     message: "Debe enviarse al menos 'days' o 'hours'.",
-    path: ["days"], // puedes poner ["days","hours"] si quieres marcar ambos
+    path: ["days"],
   });
 
 export type QueryWorkingDaysSchema = z.infer<typeof QueryWorkingDaysSchema>;
