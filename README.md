@@ -24,23 +24,22 @@ API en **TypeScript + Express** que calcula fechas hábiles sumando días y hora
 
 src/
 ├── common/
-│ └── enums/
-│ └── httpStatus.ts
+│   └── enums/
+│       └── httpStatus.ts
 ├── config/
-│ ├── appRouter.ts
-│ ├── httpException.ts
-│ └── zodValidator.decorator.ts
+│   ├── appRouter.ts
+│   └── httpException.ts
 ├── controllers/
-│ └── workingDaysController.ts
+│   └── workingDaysController.ts
 ├── middleWares/
-│ ├── errorHandlerMiddleware.ts
-│ └── zodErrorHandlerMiddleware.ts
+│   ├── errorHandlerMiddleware.ts
+│   └── zodErrorHandlerMiddleware.ts
 ├── models/
-│ └── workingDaysDto.ts
+│   └── workingDaysDto.ts
 ├── services/
-│ └── workingDaysService.ts
+│   └── workingDaysService.ts
 ├── utils/
-│ └── holiday-handler.ts
+│   └── holiday-handler.ts
 └── index.ts
 
 🌐 Endpoints
