@@ -1,4 +1,4 @@
-
+```bash
 API en **TypeScript + Express** que calcula fechas hábiles sumando días y horas, respetando la jornada laboral en Colombia (08:00–12:00, 13:00–17:00) y los días festivos oficiales.
 
 ---
