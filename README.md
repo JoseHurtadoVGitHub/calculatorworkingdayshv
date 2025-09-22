@@ -1,4 +1,4 @@
-# 📅 Working Days API Calculator
+<img width="906" height="173" alt="image" src="https://github.com/user-attachments/assets/61cc5e4d-e69d-486f-81e8-a2abddc49c4d" /># 📅 Working Days API Calculator
 
 API en **TypeScript + Express** que calcula fechas hábiles sumando días y horas, respetando la jornada laboral en Colombia (08:00–12:00, 13:00–17:00) y los días festivos oficiales.
 
@@ -17,7 +17,7 @@ API en **TypeScript + Express** que calcula fechas hábiles sumando días y hora
   - Fines de semana.
   - Festivos oficiales de Colombia.
   - Jornada laboral (08:00–12:00 / 13:00–17:00).
-- Listo para desplegar en **Railway / Render / Vercel** o como **AWS Lambda** (bonus).
+- Desplegado en **Railway / **AWS Lambda**.
 
 ---
 
@@ -41,16 +41,8 @@ src/
 ├── services/
 │ └── workingDaysService.ts
 ├── utils/
-│ ├── date-calculator.ts
 │ └── holiday-handler.ts
 └── index.ts
-
-▶️ Ejecución
-Modo desarrollo
-
-Con recarga automática gracias a ts-node-dev:
-
-npm run dev
 
 🌐 Endpoints
 
@@ -81,8 +73,30 @@ Response:
 "date": "2025-09-15T17:00:00Z"
 }
 
-👤 Autor
+Instrucciones de instalación:
 
-Desarrollado por José Luis Hurtado Villa Ingeniero de Sofrware ✨
+git clone https://github.com/JoseHurtadoVGitHub/calculatorworkingdayshv.git
+cd working-days-api-calculator
+npm install
+npm run build
+npm start
 
+Mode Dev:
+npm run dev
+
+## 🚀 Despliegue
+
+- **Railway:**  
+  [https://workingdayscalculator-production.up.railway.app/api/working-days/?hours=1&date=2025-09-13T19:00:00Z](https://workingdayscalculator-production.up.railway.app/api/working-days/?hours=1&date=2025-09-13T19:00:00Z)  
+  ![Railway Deploy](https://github.com/user-attachments/assets/b093340b-c6ae-4319-90b1-0d967548ebd2)
+
+- **AWS Lambda (bonus):**  
+  [https://ycbradp9fg.execute-api.us-east-1.amazonaws.com/prod/api/working-days?date=2025-09-15T17:30:00Z&days=1](https://ycbradp9fg.execute-api.us-east-1.amazonaws.com/prod/api/working-days?date=2025-09-15T17:30:00Z&days=1)  
+  ![AWS Lambda Deploy](https://github.com/user-attachments/assets/d3f1ce0f-ea24-4b47-a763-02d1c89080ca)
+
+
+  
+👤Autor  
+Desarrollado por **José Luis Hurtado Villa**  
+🚀 Ingeniero de Software | APIs | Arquitectura Backend | Cloud
 Prueba técnica – Working Days Calculator CAPTA.
