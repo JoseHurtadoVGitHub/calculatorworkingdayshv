@@ -90,7 +90,7 @@ npm run dev
 
 - **AWS Lambda (bonus):**  
   [https://ycbradp9fg.execute-api.us-east-1.amazonaws.com/prod/api/working-days?date=2025-09-15T17:30:00Z&days=1](https://ycbradp9fg.execute-api.us-east-1.amazonaws.com/prod/api/working-days?date=2025-09-15T17:30:00Z&days=1)  
-  ![AWS Lambda Deploy](https://github.com/user-attachments/assets/d3f1ce0f-ea24-4b47-a763-02d1c89080ca)
+  ![AWS Lambda Deploy]
 
 
   
