@@ -81,7 +81,7 @@ npm start
 
 Mode Dev:
 npm run dev
-
+```
 ## 🚀 Despliegue
 
 - **Railway:**  
