@@ -1,4 +1,3 @@
-<img width="906" height="173" alt="image" src="https://github.com/user-attachments/assets/61cc5e4d-e69d-486f-81e8-a2abddc49c4d" /># 📅 Working Days API Calculator
 
 API en **TypeScript + Express** que calcula fechas hábiles sumando días y horas, respetando la jornada laboral en Colombia (08:00–12:00, 13:00–17:00) y los días festivos oficiales.
 
